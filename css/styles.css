@@ -379,10 +379,46 @@ section{
     color: var(--main-color);
 }
 
+/*---------conatct us---------*/
 
+.contact .row{
+    display: flex;
+    background: var(--black);
+    flex-wrap: wrap;
+    gap: 1rem;
+}
 
-
-
+.contact .row .map{
+    flex: 1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+}
+.contact .row form{
+    flex: 1 1 45rem;
+    padding: 5rem 2rem;
+    text-align: center;    
+}
+.contact .row form h3{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 3.5rem;
+}
+.contact .row form .input-box{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background: var(--black);
+    border: var(--border);
+}
+.contact .row form .input-box span{
+    color: #fff;
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+.contact .row form .input-box input{
+    
+}
 
 
 
